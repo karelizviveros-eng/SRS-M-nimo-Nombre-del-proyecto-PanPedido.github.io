@@ -20,3 +20,12 @@ RF-03	El panadero podrá marcar un pedido como entregado cuando el cliente lo re
 Requisito No Funcional
 Código	Requisito	Prioridad
 RNF-01	El sistema deberá permitir completar un pedido en máximo tres pantallas para facilitar su uso.	Media
+                 PanPedido
+
+                 ┌────────────────────────────┐
+Cliente -------->| Tomar pedido              |
+                 └────────────────────────────┘
+
+Panadero -------> Registrar productos
+
+Panadero -------> Marcar pedido entregado
